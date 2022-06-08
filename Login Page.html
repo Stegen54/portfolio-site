@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+</head>
+
+<body>
+  <header>
+    <nav id="headernav">
+      <ul class="nav_links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="Contact Page.html">Contact</a></li>
+        <li class="one"><a href="Login Page.html">Log in</a></li>
+        <a class="cta" href="Registration Page.html"><button>Sign up</button></a>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="container2">
+      <form action="action_page.php" method="post">
+        <div class="login">
+          <h1>Login</h1>
+        </div>
+
+        <label for="uname"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+    
+        <button class="submit" type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label><br><br>
+  
+        <a href="Registration Page.html"> <button type="button" class="cancelbtn">Create New Account</button></a>
+        <span class="psw">Forgot <a style="color: #0088a9" href="#">password?</a></span>
+      </form>
+    </div>
+  </main>
+ 
+
+</body>
+
+</html>
